@@ -1,15 +1,26 @@
 {
     "name": "bantenprov/banten",
-    "description": "The Banten package",
+    "description": "Package Laravel yang berisi data Provinsi, Kabupaten/Kota, dan Kecamatan/Desa di seluruh Provinsi Banten",
+    "type": "library",
+    "homepage": "https://github.com/bantenprov/banten",
     "authors": [
         {
-            "name": "bantenprov",
-            "email": "developer.bantenprov@gmail.com"
-        }
+        "name": "bantenprov",
+        "email": "developer.bantenprov@gmail.com",
+        "role": "developer"
+    }
     ],
+    "license": "MIT",
+    "support": {
+      "source": "https://github.com/bantenprov/banten,",
+      "issues": "https://github.com/bantenprov/banten/issues",
+      "wiki": "https://github.com/bantenprov/banten/wiki"
+    },
     "require": {
         "php": ">=5.6.4",
-        "illuminate/support": "5.4.*"
+        "laravel/framework": "5.4.*",
+        "laravel/tinker": "~1.0"
+        "laravolt/indonesia": "v0.7"
     },
     "autoload": {
         "files": [
@@ -19,5 +30,5 @@
             "Bantenprov\\Banten\\": "src"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
